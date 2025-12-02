@@ -18,8 +18,7 @@ const account = {
         console.log("Error: Account not found.");
     },   
 
-    exitAccount(){
-        console.log("Exiting account...");
-    },
-}
+    
+    }
+
 account.getBalance(); 
