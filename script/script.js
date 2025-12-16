@@ -5,7 +5,7 @@ const account = {
         console.log(this.balance);
     },
     deposit(amount){
-        const message= parseFloat(prompt("Enter deposit amount:"));
+         const message= parseFloat(prompt("Enter deposit amount:"));
         this.balance += amount;
     },
     withdrawal(amount){
