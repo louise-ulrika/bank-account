@@ -1,4 +1,4 @@
-const account = {
+let account = {
     accountName:"Chloe Matthews",
     balance:41000,
 
@@ -38,6 +38,9 @@ account.withdrawal(2000);
 
 
 
+
+
+let message= null;
 
     function atm(){ const message= parseFloat(prompt("Select a choice 1.) See balance, 2.) Make a deposit 3.) Make a withdrawal 4.)Get account Name 5.) Exit") 
    
