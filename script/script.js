@@ -35,7 +35,7 @@ account.getBalance();
 account.getAccountName();
 account.deposit(5000);
 account.withdrawal(2000);
-
+account.accountError();
 
 
 
@@ -44,7 +44,7 @@ let message= null;
 
     function atm(){ const message= parseFloat(prompt("Select a choice 1.) See balance, 2.) Make a deposit 3.) Make a withdrawal 4.)Get account Name 5.) Exit") 
    
-);
+)};
    
 switch(message) {
     case 1:
@@ -63,8 +63,8 @@ switch(message) {
         console.log("Thank you for banking with us!");
         break;
     default:
-        this.accountError();
+        accountError();
         break;
-} }
+};
 
 atm();
